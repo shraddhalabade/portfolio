@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Sign In</title>
+</head>
+<body>
+    <h2>Hotel Sign In</h2>
+    <form id="loginForm" onsubmit="return validateForm()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Sign In">
+    </form>
+
+    <script>
+        function validateForm() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Basic validation (you may need more sophisticated checks)
+            if (username === "" || password === "") {
+                alert("Username and password are required");
+                return false;
+            }
+
+            // Here you can implement further authentication logic (e.g., AJAX to backend)
+            // For demonstration purposes, we'll simply show an alert for successful login
+            alert("Welcome, " + username + "!");
+            return true; // Allow form submission
+        }
+    </script>
+</body>
+</html>
