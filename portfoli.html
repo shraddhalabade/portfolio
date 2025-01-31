@@ -26,6 +26,209 @@
 <!-- Link Swiper's CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+<!-- por,css -->
+<style>
+  .bg{
+    background-color: white;
+}
+.contenar2{
+margin-left: auto;
+margin-right: auto;
+}
+*{
+    margin: 0%;
+   padding: 0%;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 1rem;
+    font-family: "Bree Serif", serif;
+    
+}
+.s{
+    display: flex;
+    justify-content: left;
+    font-size: medium;
+    font-family: "Unna", serif;
+    color: black;
+}
+.main-h{
+    min-height: 100vh;
+background-image: image(img 1);
+}
+.hr{
+    color: rgb(67, 67, 157);
+   
+}
+
+.x .text{
+    position: absolute;
+    color: black;
+    font-size: medium;
+    left: 10%;
+    /* top: 20px; */
+    bottom: 30%;
+    /* justify-content: center; */
+    width: 50%;
+    font-family:  "Bree Serif", serif;
+   
+}
+.b{
+   /* font-family: Arial, Helvetica, sans-serif; */
+   font-family: "Unna", serif;
+}
+.m {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    left: 10%;
+    position: absolute;
+    bottom: 25%;
+}
+#button{
+    background-color: white;
+        color: black;
+        padding: 0.4em 0.8em;
+        font-size: o.5em; 
+      
+        cursor: pointer; 
+        border-radius: 10px;  
+}
+#button:hover{
+    background-color: aqua;
+    width: 120%;
+}
+#but:hover{
+    font-size: 100%;
+    color: brown;
+}
+.b{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+.b li{
+    list-style: none;
+    margin: 5px;
+    
+    
+}
+#but{
+    background-color: white;
+    border: 0;
+}
+
+.image-container {
+    
+    text-align: right;
+    /* margin-bottom: 20px; */
+   
+}
+.image-container img {
+  
+    max-width: 50%;
+    height: auto;
+    right: 5%;
+}
+.text h1 {
+    font-size: clamp(2rem, 4vw,5.5rem);
+}
+.text h2 {
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+
+.arrow{
+    position: absolute;
+    right: 2%;
+    /* left: 10%; */
+    color: blue;
+    margin-bottom: 10%;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white; 
+    color: white;
+    /* padding: 10px 15px; */
+    text-align: center;
+    /* font-size: 22px; */
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.under{
+    border: 0cm;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+</style>
+
+<!-- land .css -->
+ 
+<style>
+  
+  .x{
+    background-image: url(c310c849-0e5a-41e5-a892-50128578115e.jpg);
+    height: 400px;
+    width:100%;
+    
+}
+
+.l{
+    background-image: url(black.avif);
+    height: 100px;
+    width: 100%;
+}
+.s{
+    color:white;
+}
+.m {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    left: 30%;
+    position: absolute;
+    bottom: 20px;
+}
+#button{
+    background-color: rgb(23, 207, 217); 
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px; 
+       
+        cursor: pointer; 
+        border-radius: 5px;  
+}
+#navbar{
+ 
+     background-color: none; 
+    /*color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+   
+    cursor: pointer; 
+    border-radius: 5px;  */
+
+}
+.footer-h{
+    min-height: 50vh;
+}
+
+
+</style>
 <!-- Demo styles -->
 <style>
   html,
@@ -37,20 +240,20 @@
   body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 1em;
     color: #000;
     margin: 0;
     padding: 0;
   }
 
   .swiper {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 30%;
   }
 
   .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 18em;
     background: #fff;
     display: flex;
     justify-content: center;
@@ -59,8 +262,8 @@
 
   .swiper-slide img {
     display: block;
-    width: 50%;
-    height: 70%;
+    width: 60%;
+    height: 10%;
     object-fit: cover;
   }
 </style>
@@ -68,11 +271,11 @@
    .contact-form {
     width: 100%;
     max-width: 600px;
-    margin: 50px auto; /* Centering the form */
-    padding: 20px;
+    margin: 5em auto; /* Centering the form */
+    padding: 1em;
     background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
     clear: both;
 }
 
@@ -84,26 +287,26 @@
 }
 
 .contact-form label {
-    margin-top: 10px;
+    margin-top: 0.5em;
     font-weight: bold;
 }
 
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 0.2em;
+    margin-top: 1em;
+    border: 0.1em solid #ccc;
+    border-radius: 0.1em;
 }
 
 .contact-form button {
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 1em;
+    padding: 1em;
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 1em;
     cursor: pointer;
 }
 
@@ -112,25 +315,224 @@
 }
 
 </style>
+<!-- style for skill  -->
+<style>
+  body {
+      font-family: Arial, sans-serif;
+      /* text-align: center; */
+      background-color: #f5f5f5;
+      margin: 0;
+      /* padding: 40px 0; */
+  }
+
+  h2 {
+      color: #333;
+  }
+
+  .skills-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+  }
+
+  .skill-box {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .skill-box svg {
+      transform: rotate(-90deg);
+  }
+
+  .skill-box circle {
+      fill: none;
+      stroke-width: 10;
+      stroke-linecap: round;
+      transition: stroke-dashoffset 1s ease-in-out;
+  }
+
+  .background-circle {
+      stroke: #e0e0e0;
+  }
+
+  .progress-circle {
+      stroke: #007bff; /* Change color here */
+      stroke-dasharray: 440;
+      stroke-dashoffset: 440;
+  }
+
+  .skill-text {
+      position: absolute;
+      font-size: 15px;
+      font-weight: bold;
+      color: #333;
+  }
+</style>
+
+<!-- style for the tecnical skills -->
+<style>
+  
+
+  h2 {
+      color: #333;
+  }
+
+  .tec-skills {
+      width: 60%;
+      margin: auto;
+      text-align: left;
+  }
+
+  .tecskill-box {
+      margin-bottom: 20px;
+  }
+
+  .skill-name {
+      font-size: 18px;
+      margin-bottom: 5px;
+      color: #333;
+      font-weight: bold;
+  }
+
+  .progress-bar {
+      width: 100%;
+      background-color: #e0e0e0;
+      border-radius: 10px;
+      height: 10px;
+      position: relative;
+      overflow: hidden;
+  }
+
+  .progress-fill {
+      height: 100%;
+      width: 0%;
+      border-radius: 10px;
+      transition: width 1.5s ease-in-out;
+  }
+
+  .progress-percent {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+  }
+
+</style>
+
+
+<!-- for responcive -->
+<style>
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .navbar {
+        justify-content: right;
+    }
+
+    .main-h {
+        background-position: center;
+    }
+
+    .x .text {
+        font-size: smaller;
+        left: 5%;
+        width: 70%;
+    }
+
+    .b {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #button {
+        padding: 0.5em 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s {
+        font-size: small;
+    }
+
+    .b {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .x .text {
+        font-size: smaller;
+        left: 5%;
+        width: 80%;
+    }
+
+    #button {
+        padding: 0.8em 1.2em;
+    }
+
+    .image-container img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar li {
+        font-size: 0.9rem;
+        margin: 0.5rem 0;
+    }
+
+    .b {
+        gap: 1rem;
+    }
+
+    .x .text {
+        font-size: 0.9rem;
+        left: 5%;
+        width: 90%;
+    }
+
+    #button {
+        font-size: 0.8em;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+</style>
 </head>
 <body>
     <div class="contenar contenar2 bg">
         <header class="header"> 
-            <div class="s" id="top">
+            <div class="s">
                 <ul>
                     <li><b>portfoli...</b></li>
                 </ul>
                 <br>
             </div>
     <ul class="navbar">
-        <li><a href="#skills">skills</a></li>
+        <li><a href="#skills"><button class="under">skills</button></a></li>
         
-        <li><a href="#Contact Me">Contact Me</a></li>
-     
-        <li><a href="#project">project</a></li>
+        <li><a href="#project"><button class="under">project</button></a></li>
     
-        <li><a href="#Certificates">Certificates</a></li>
+        <li><a href="#Certificates"><button class="under">Certificates</button></a></li>
         
+        <li><a href="#Contact Me"><button class="under">Contact Me</button> </a></li>
     </ul>
   
     </header>
@@ -143,11 +545,10 @@
          
         <div class="x">
       
-        <div class="text"><h1> Shraddha Labade</h1>
+        <div class="text" id="up"><h1> Shraddha Labade</h1>
             <h3>MERN Stack Developer</h3>
            <br>
-            <p>welcome to my portfoli ,my name is Shraddha Labade,I am now in second year of B-TECH ,and my Branch  is
-            computer science engineering with specialization in artificial intelligence & machine learning .CSE(AIML) </p>
+            <p>welcome to my portfoli ,my name is Shraddha Balasaheb Labade,I am  third year Computer Science and engineering student specialization in artificial intelligence & machine learning .CSE(AIML) </p>
                 <br>
                
             </div>
@@ -174,47 +575,134 @@
 
 
 
-
 </pre>
- <center>
-<div id="skills">
-  <h1> SKILLS</h1>
-  <ul>
-      <li>MERN Stack Developer</li>
-      <li>C Language</li>
-      <li>HTML </li>
-      <li>CSS</li>
-      <li>JS</li>
-      <li>python</li>
-      <li>familiar with C++</li>
+<h2 id="skills">My Skills</h2>
+<br>
+<br>
+<center><h3>Technical Skills...</h3></center>
 
-  </ul>
-<pre>
+<br>
+<br>
+<div class="tec-skills">
 
+    <div class="tecskill-box">
+        <div class="skill-name">HTML,CSS,JavaScript</div>
+        <div class="progress-bar">
+            <div class="progress-fill" data-percent="95" data-color="linear-gradient(90deg, #2196F3, #03A9F4)">
+                <span class="progress-percent">95%</span>
+            </div>
+        </div>
+    </div>
 
-
-</pre>
-
-  <h2>interpersonal skills :-</h2>
-  <ul>
-      <li>Team Work</li>
-      <li>Time Management</li>
-      <li>Good Communication</li>
-      <li>Capability to handle Pressure during work</li>
-  </ul>
-  <pre>
-
-
-  
-  </pre>
-  <h2>Language :-</h2>
-  <ul>
-      <li>Marathi</li>
-      <li>Hindi</li>
-      <li>English</li>
-  </ul>
+  <div class="tecskill-box">
+    <div class="skill-name">React.Js</div>
+    <div class="progress-bar">
+        <div class="progress-fill" data-percent="80" data-color="linear-gradient(90deg, #2196F3, #03A9F4)">
+            <span class="progress-percent">80%</span>
+        </div>
+    </div>
 </div>
-</center>
+<div class="tecskill-box">
+  <div class="skill-name">Node.Js</div>
+  <div class="progress-bar">
+      <div class="progress-fill" data-percent="85" data-color="linear-gradient(90deg, #2196F3, #03A9F4)">
+          <span class="progress-percent">85%</span>
+      </div>
+  </div>
+</div>
+
+<div class="tecskill-box">
+  <div class="skill-name">Express.Js</div>
+  <div class="progress-bar">
+      <div class="progress-fill" data-percent="75" data-color="linear-gradient(90deg, #2196F3, #03A9F4)">
+          <span class="progress-percent">75%</span>
+      </div>
+  </div>
+</div>
+
+<div class="tecskill-box">
+  <div class="skill-name">MongoDB</div>
+  <div class="progress-bar">
+      <div class="progress-fill" data-percent="90" data-color="linear-gradient(90deg, #2196F3, #03A9F4)">
+          <span class="progress-percent">90%</span>
+      </div>
+  </div>
+</div>
+
+    <div class="tecskill-box">
+        <div class="skill-name">Python</div>
+        <div class="progress-bar">
+            <div class="progress-fill" data-percent="70" data-color="linear-gradient(90deg, #2196F3, #03A9F4)">
+                <span class="progress-percent">70%</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const progressBars = document.querySelectorAll(".progress-fill");
+
+        progressBars.forEach(bar => {
+            let percentage = bar.getAttribute("data-percent");
+            let color = bar.getAttribute("data-color");
+
+            bar.style.width = percentage + "%";
+            bar.style.background = color; // Set unique color
+        });
+    });
+</script>
+<br>
+<br>
+<br>
+<br>
+<center><h3>Professional Skills...</h3></center>
+<br>
+<br>
+    <div class="skills-container">
+        <!-- Skill 1 -->
+        <div class="skill-box">
+            <svg width="150" height="150">
+                <circle class="background-circle" cx="75" cy="75" r="70"></circle>
+                <circle class="progress-circle" cx="75" cy="75" r="70"></circle>
+            </svg>
+            <div class="skill-text">Tem Work <h4>90%</h4></div>
+            
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="skill-box">
+            <svg width="150" height="150">
+                <circle class="background-circle" cx="75" cy="75" r="70"></circle>
+                <circle class="progress-circle" cx="75" cy="75" r="70"></circle>
+            </svg>
+            <div class="skill-text">Creativity<h4>85%</h4></div>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="skill-box">
+            <svg width="150" height="150">
+                <circle class="background-circle" cx="75" cy="75" r="70"></circle>
+                <circle class="progress-circle" cx="75" cy="75" r="70"></circle>
+            </svg>
+            <div class="skill-text">Communication <h4>80%</h4></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const progressCircles = document.querySelectorAll(".progress-circle");
+            const skillValues = [90, 85, 80]; // Change percentages here
+
+            progressCircles.forEach((circle, index) => {
+                let percentage = skillValues[index];
+                let offset = 440 - (440 * percentage) / 100;
+                circle.style.strokeDashoffset = offset;
+            });
+        });
+    </script>
+
+
 <pre>
 
 
@@ -226,21 +714,46 @@
 
 
 </pre>
-<center>
 <div id="project">
- 
+
   <h1>Projects</h1>
-  <ul>
-  <li><h4>1 . project no 1</h4><a href="project1.html"> projects 1</a></li>
- 
-  <li> <h4>2 . project no 2</h4><a href="calculater/calculater.html">projects 2</a></li>
- 
-  <li><h4>3 . project no 3</h4><a href="landing page/landingpage.html">projects 3</a></li>
- 
-  <li><h4>4 . project no 4</h4><a href="project2.html">projects 4</a></li>
-</ul>
+  <br>
+  <table>
+    <th>
+      <tr>
+        <td><h4>1 . project no 1</h4></td>
+        <td><h4>2 . project no 2</h4></td>
+        <td><h4>3 . project no 3</h4></td>
+      </tr>
+      <tr>
+        <td><iframe style="margin-top: 5%; margin-bottom: 5%;" src="WhatsApp Video 2025-01-30 at 10.03.12 PM.mp4" frameborder="0"></iframe></td>
+        <td><iframe src="lms.mp4" frameborder="0"></iframe></td>
+        <td><iframe src="InShot_20250130_222532895.mp4" frameborder="0"></iframe></td>
+      </tr>
+      <tr>
+      <td><p style="margin-top: 5%; margin-bottom: 5%; "><h2>Project Name :- social mediya</h2><h3>Project Description:-</h3>a system that allows users to submit their name, social media handle, and upload multiple images. The submitted data will be displayed on an admin dashboard, showing each user's name, social media handle, and all images they have uploaded. </p></td>
+
+      <td><p ><h2>Project Name :- college library management</h2><h3>Project Description:-</h3>this web application i made for my collage to help student,teacher,and also for the library managment staf  </p></td>
+
+      <td><p ><h2>Project Name :- hotel booking</h2><h3>Project Description:-</h3>it's a web application which reduce the ambigutity at the time of the hotel booking and also help users to find best hotel  </p></td>
+    </tr>
+    </th>
+  </table>
+
 </div>
-</center>
+
+
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {});
+</script>
+
 <pre>
 
 
@@ -250,9 +763,14 @@
 
 
 </pre>
+<h1>Certificates ....</h1>
+<pre>
 
-<div class="swiper mySwiper">
-    <div class="swiper-wrapper" id="Certificates">
+
+
+</pre>
+<div class="swiper mySwiper" id="Certificates">
+    <div class="swiper-wrapper" >
       <div class="swiper-slide"><img src="GOOGL  C .jpeg" alt=""></div>
       <div class="swiper-slide"><img src="infosys.jpeg" alt=""></div>
       <div class="swiper-slide"><img src="DIY.jpeg" alt=""></div>
@@ -282,7 +800,9 @@
     });
   </script>
   
+  <h1>Contact</h1>
 <div>
+  
   <div class="contact-form" id="Contact Me">
       <h2>Contact Me</h2>
       <form action="#" method="post" name="submit-to-google-sheet">
@@ -349,7 +869,7 @@
 </div>
 <div class="arrow" class="navbar">
   
-  <li><a href="#top"><button class="top" >go to top</button></a></li>
+  <li><a href="#up"><button class="under">up</button></a></li>
 </div>
 <pre>                                                               thank you....                 
                                                  </pre>
