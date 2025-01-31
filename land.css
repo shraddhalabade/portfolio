@@ -27,7 +27,7 @@
         color: white;
         padding: 10px 20px;
         font-size: 16px; 
-       
+   
         cursor: pointer; 
         border-radius: 5px;  
 }
@@ -45,4 +45,3 @@
 .footer-h{
     min-height: 50vh;
 }
-
